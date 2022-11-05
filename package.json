@@ -1,9 +1,11 @@
 {
-  "name": "movie_list",
+  "name": "restaurants",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +14,14 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zell0323/restaurants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zell0323/restaurants/issues"
+  },
+  "homepage": "https://github.com/zell0323/restaurants#readme"
 }
